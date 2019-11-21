@@ -52,5 +52,14 @@ Docker Volume
         source: ./database-dir
         target: /var/lib/postgresql/data
 
+Commands:
+=========
+docker volume ls
 
+
+Cleaning Up
+===========
+docker container prune -af
+docker image prune -f
+docker volume prune -f
 
